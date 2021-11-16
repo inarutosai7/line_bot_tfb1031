@@ -1,0 +1,45 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "md",
+    "contents": [
+      {
+        "type": "text",
+        "text": "你的性別：",
+        "wrap": true,
+        "weight": "bold",
+        "gravity": "center",
+        "size": "md"
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "postback",
+          "label": "男性",
+          "data": "action=gender&mode=male",
+          "displayText": "男性"
+        },
+        "style": "primary",
+        "color": "#905c44"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "postback",
+          "label": "女性",
+          "data": "action=gender&mode=female",
+          "displayText": "女性"
+        },
+        "color": "#CE6D32"
+      }
+    ]
+  }
+}
