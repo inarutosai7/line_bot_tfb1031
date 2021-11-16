@@ -1,0 +1,57 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://imgur.dcard.tw/ef60dVrh.jpg",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover",
+    "action": {
+      "type": "message",
+      "label": "action",
+      "text": "hello"
+    }
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "你好~",
+        "weight": "bold",
+        "size": "md"
+      },
+      {
+        "type": "text",
+        "text": "請幫忙填寫問卷",
+        "weight": "bold",
+        "size": "md"
+      },
+      {
+        "type": "text",
+        "text": "我們會推薦給你適合的房間",
+        "weight": "bold",
+        "size": "md"
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "button",
+        "style": "primary",
+        "action": {
+          "type": "message",
+          "label": "Go",
+          "text": "開始填寫問卷"
+        },
+        "color": "#905c44"
+      }
+    ],
+    "flex": 0
+  }
+}
